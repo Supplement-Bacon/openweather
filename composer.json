@@ -1,8 +1,12 @@
 {
-    "name": "dnsimmons/openweather",
+    "name": "supplement-bacon/openweather",
     "description": "OpenWeather is a Laravel package simplifying working with the free Open Weather Map APIs.",
     "license": "LGPL-3.0",
     "authors": [
+        {
+            "name": "Samuel Hassid",
+            "email": "samuel@supplement-bacon.com"
+        },
         {
             "name": "Dave Simmons",
             "email": "hello@dsimmons.me"
