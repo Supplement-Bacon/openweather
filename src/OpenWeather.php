@@ -375,7 +375,8 @@ class OpenWeather
                     'id'   => $item['weather'][0]['id'],
                     'name' => $item['weather'][0]['main'],
                     'desc' => $item['weather'][0]['description'],
-                    'icon' => $this->api_endpoint_icons . $item['weather'][0]['icon'] . '.' . $this->api_endpoint_icons_ext,
+                    'icon_id' => $item['weather'][0]['icon'],
+                    'icon_url' => $this->api_endpoint_icons . $item['weather'][0]['icon'] . '.' . $this->api_endpoint_icons_ext,
                 ],
                 'wind' => [
                     'speed' => $item['wind_speed'],
