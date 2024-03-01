@@ -371,6 +371,7 @@ class OpenWeather
                     'pressure' => round($item['pressure']),
                     'humidity' => round($item['humidity']),
                     'dew_point' => round($item['dew_point']),
+                    'rain' => round($item['rain']['1h'] ?? null),
                 ],
                 'condition' => [
                     'id'   => $item['weather'][0]['id'],
