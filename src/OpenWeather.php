@@ -476,6 +476,17 @@ class OpenWeather
     }
 
     /**
+     * Set the lang parameter for requests
+     *
+     * @param string $lang The desired lang
+     */
+    public function setLang(string $lang)
+    {
+        $this->api_lang = $lang;
+        return $this;
+    }
+
+    /**
      * Returns current weather by city name.
      * Returns FALSE on failure.
      *
